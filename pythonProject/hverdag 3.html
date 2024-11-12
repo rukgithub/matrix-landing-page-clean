@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <title>Prompt Tabel for Historiske Personer</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            table-layout: fixed;
+            word-wrap: break-word;
+        }
+        th, td {
+            border: 1px solid #ccc;
+            padding: 5px;
+            text-align: center;
+            vertical-align: middle;
+            font-size: 14px;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        .prompt {
+            text-align: left;
+            font-size: 12px;
+        }
+        input[type="checkbox"] {
+            width: 15px;
+            height: 15px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Prompt Tabel for Historiske Personer</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Person</th>
+                <th>Prompt</th>
+                <th>Langt hår</th>
+                <th>Kort hår</th>
+                <th>Briller</th>
+                <th>Ingen briller</th>
+                <th>Hovedbeklædning</th>
+                <th>Ingen hovedbeklædning</th>
+                <th>Smiler</th>
+                <th>Smiler ikke</th>
+                <th>Hårfarve</th>
+                <th>Øjenfarve</th>
+                <th>Hudfarve</th>
+                <th>Mand</th>
+                <th>Kvinde</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Julius Cæsar -->
+            <tr>
+                <td>Julius Cæsar</td>
+                <td class="prompt">"A square cartoon portrait of Julius Cæsar, viewed directly from the front like a passport photo. He has short, wavy dark brown hair and sharp brown eyes, wearing his iconic laurel wreath crown and a traditional Roman toga. His expression is stern and commanding. Below the image, the name 'CÆSAR' is written in bold Danish letters."</td>
+                <td></td>
+                <td>✔</td>
+                <td></td>
+                <td>✔</td>
+                <td>✔</td>
+                <td></td>
+                <td></td>
+                <td>✔</td>
+                <td>Mørkebrun</td>
+                <td>Brun</td>
+                <td>Lys</td>
+                <td>✔</td>
+                <td></td>
+            </tr>
+            <!-- Kleopatra -->
+            <tr>
+                <td>Kleopatra</td>
+                <td class="prompt">"A square cartoon portrait of Kleopatra, viewed directly from the front like a passport photo. She has long, straight black hair with bangs and enchanting green eyes, adorned with a golden Egyptian headdress and royal attire. Her expression is confident and alluring. Below the image, the name 'KLEOPATRA' is written in bold Danish letters."</td>
+                <td>✔</td>
+                <td></td>
+                <td></td>
+                <td>✔</td>
+                <td>✔</td>
+                <td></td>
+                <td></td>
+                <td>✔</td>
+                <td>Sort</td>
+                <td>Grøn</td>
+                <td>Mellemøstlig</td>
+                <td></td>
+                <td>✔</td>
+            </tr>
+            <!-- Svend Tveskæg -->
+            <tr>
+                <td>Svend Tveskæg</td>
+                <td class="prompt">"A square cartoon portrait of Svend Tveskæg, viewed directly from the front like a passport photo. He has short, blond hair and a distinctive forked beard, with piercing blue eyes. He wears a Viking helmet without horns and traditional Viking attire. His expression is fierce and determined. Below the image, the name 'SVEND TVESKÆG' is written in bold Danish letters."</td>
+                <td></td>
+                <td>✔</td>
+                <td></td>
+                <td>✔</td>
+                <td>✔</td>
+                <td></td>
+                <td></td>
+                <td>✔</td>
+                <td>Blond</td>
+                <td>Blå</td>
+                <td>Lys</td>
+                <td>✔</td>
+                <td></td>
+            </tr>
+            <!-- Margrete 1. -->
+            <tr>
+                <td>Margrete 1.</td>
+                <td class="prompt">"A square cartoon portrait of Margrete 1., viewed directly from the front like a passport photo. She has medium-length, wavy auburn hair and thoughtful brown eyes, wearing a medieval crown and royal robes. Her expression is wise and serene. Below the image, the name 'MARGRETE 1.' is written in bold Danish letters."</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>✔</td>
+                <td>✔</td>
+                <td></td>
+                <td></td>
+                <td>✔</td>
+                <td>Kastanjebrun</td>
+                <td>Brun</td>
+                <td>Lys</td>
+                <td></td>
+                <td>✔</td>
+            </tr>
+            <!-- Leonora Christina -->
+            <tr>
+                <td>Leonora Christina</td>
+                <td class="prompt">"A square cartoon portrait of Leonora Christina, viewed directly from the front like a passport photo. She has long, curly dark brown hair and expressive blue eyes, wearing elegant 17th-century attire with pearl accessories. Her expression is reflective and dignified. Below the image, the name 'LEONORA CHRISTINA' is written in bold Danish letters."</td>
+                <td>✔</td>
+                <td></td>
+                <td></td>
+                <td>✔</td>
+                <td></td>
+                <td>✔</td>
+                <td></td>
+                <td>✔</td>
+                <td>Mørkebrun</td>
+                <td>Blå</td>
+                <td>Lys</td>
+                <td></td>
+                <td>✔</td>
+            </tr>
+            <!-- Herakles -->
+            <tr>
+                <td>Herakles</td>
+                <td class="prompt">"A square cartoon portrait of Herakles, viewed directly from the front like a passport photo. He has short, curly dark hair and intense brown eyes, wearing a lion skin over his shoulder and Greek warrior attire. His expression is strong and heroic. Below the image, the name 'HERAKLES' is written in bold Danish letters."</td>
+                <td></td>
+                <td>✔</td>
+                <td></td>
+                <td>✔</td>
+                <td></td>
+                <td>✔</td>
+                <td></td>
+                <td>✔</td>
+                <td>Mørk</td>
+                <td>Brun</td>
+                <td>Oliventræ</td>
+                <td>✔</td>
+                <td></td>
+            </tr>
+            <!-- Hydra -->
+            <tr>
+                <td>Hydra</td>
+                <td class="prompt">"A square cartoon portrait of the Hydra, viewed directly from the front like a passport photo. This mythological creature has multiple serpent heads with shimmering green scales and glowing yellow eyes. There is no hair or human facial features. Its expression is menacing and fierce. Below the image, the name 'HYDRA' is written in bold Danish letters."</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>✔</td>
+                <td>Grønne skæl</td>
+                <td>Gul</td>
+                <td>Skællet</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <!-- Erik Klipping -->
+            <tr>
+                <td>Erik Klipping</td>
+                <td class="prompt">"A square cartoon portrait of Erik Klipping, viewed directly from the front like a passport photo. He has short, light brown hair and hazel eyes, wearing a medieval crown and royal attire. His expression is stern and regal. Below the image, the name 'ERIK KLIPPING' is written in bold Danish letters."</td>
+                <td></td>
+                <td>✔</td>
+                <td></td>
+                <td>✔</td>
+                <td>✔</td>
+                <td></td>
+                <td></td>
+                <td>✔</td>
+                <td>Lys brun</td>
+                <td>Hasselbrun</td>
+                <td>Lys</td>
+                <td>✔</td>
+                <td></td>
+            </tr>
+            <!-- Egtvedpigen -->
+            <tr>
+                <td>Egtvedpigen</td>
+                <td class="prompt">"A square cartoon portrait of Egtvedpigen, viewed directly from the front like a passport photo. She has long, blonde hair styled in intricate braids and blue eyes, wearing traditional Bronze Age clothing with a corded skirt. Her expression is youthful and serene. Below the image, the name 'EGTVEDPIGEN' is written in bold Danish letters."</td>
+                <td>✔</td>
+                <td></td>
+                <td></td>
+                <td>✔</td>
+                <td></td>
+                <td>✔</td>
+                <td>✔</td>
+                <td></td>
+                <td>Blond</td>
+                <td>Blå</td>
+                <td>Lys</td>
+                <td></td>
+                <td>✔</td>
+            </tr>
+            <!-- Gorm den Gamle -->
+            <tr>
+                <td>Gorm den Gamle</td>
+                <td class="prompt">"A square cartoon portrait of Gorm den Gamle, viewed directly from the front like a passport photo. He has short, gray hair and a thick beard, with deep-set blue eyes. Wearing a simple Viking helmet and royal attire. His expression is wise and stoic. Below the image, the name 'GORM DEN GAMLE' is written in bold Danish letters."</td>
+                <td></td>
+                <td>✔</td>
+                <td></td>
+                <td>✔</td>
+                <td>✔</td>
+                <td></td>
+                <td></td>
+                <td>✔</td>
+                <td>Grå</td>
+                <td>Blå</td>
+                <td>Lys</td>
+                <td>✔</td>
+                <td></td>
+            </tr>
+            <!-- Christian de Meza -->
+            <tr>
+                <td>Christian de Meza</td>
+                <td class="prompt">"A square cartoon portrait of Christian de Meza, viewed directly from the front like a passport photo. He has short, dark hair with graying temples and attentive brown eyes, wearing a Danish military uniform with medals. His expression is serious and composed. Below the image, the name 'CHRISTIAN DE MEZA' is written in bold Danish letters."</td>
+                <td></td>
+                <td>✔</td>
+                <td></td>
+                <td>✔</td>
+                <td></td>
+                <td>✔</td>
+                <td></td>
+                <td>✔</td>
+                <td>Mørk med grå stænk</td>
+                <td>Brun</td>
+                <td>Lys</td>
+                <td>✔</td>
+                <td></td>
+            </tr>
+            <!-- Aristoteles -->
+            <tr>
+                <td>Aristoteles</td>
+                <td class="prompt">"A square cartoon portrait of Aristoteles, viewed directly from the front like a passport photo. He has short, graying hair and contemplative brown eyes, wearing traditional Greek philosopher robes. His expression is thoughtful and wise. Below the image, the name 'ARISTOTELES' is written in bold Danish letters."</td>
+                <td></td>
+                <td>✔</td>
+                <td></td>
+                <td>✔</td>
+                <td></td>
+                <td>✔</td>
+                <td></td>
+                <td>✔</td>
+                <td>Grå</td>
+                <td>Brun</td>
+                <td>Oliventræ</td>
+                <td>✔</td>
+                <td></td>
+            </tr>
+            <!-- Corfitz Ulfeldt -->
+            <tr>
+                <td>Corfitz Ulfeldt</td>
+                <td class="prompt">"A square cartoon portrait of Corfitz Ulfeldt, viewed directly from the front like a passport photo. He has medium-length, wavy brown hair and keen blue eyes, wearing 17th-century noble attire with a lace collar. His expression is cunning and ambitious. Below the image, the name 'CORFITZ ULFELDT' is written in bold Danish letters."</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>✔</td>
+                <td></td>
+                <td>✔</td>
+                <td></td>
+                <td>✔</td>
+                <td>Brun</td>
+                <td>Blå</td>
+                <td>Lys</td>
+                <td>✔</td>
+                <td></td>
+            </tr>
+            <!-- Skipper Clement -->
+            <tr>
+                <td>Skipper Clement</td>
+                <td class="prompt">"A square cartoon portrait of Skipper Clement, viewed directly from the front like a passport photo. He has short, sandy blond hair and lively blue eyes, wearing a sailor's cap and maritime attire. His expression is bold and adventurous. Below the image, the name 'SKIPPER CLEMENT' is written in bold Danish letters."</td>
+                <td></td>
+                <td>✔</td>
+                <td></td>
+                <td>✔</td>
+                <td>✔</td>
+                <td></td>
+                <td>✔</td>
+                <td></td>
+                <td>Sandy blond</td>
+                <td>Blå</td>
+                <td>Lys</td>
+                <td>✔</td>
+                <td></td>
+            </tr>
+            <!-- Absalon -->
+            <tr>
+                <td>Absalon</td>
+                <td class="prompt">"A square cartoon portrait of Absalon, viewed directly from the front like a passport photo. He has short, silver hair and kind gray eyes, wearing a bishop's mitre and ecclesiastical robes. His expression is compassionate and wise. Below the image, the name 'ABSALON' is written in bold Danish letters."</td>
+                <td></td>
+                <td>✔</td>
+                <td></td>
+                <td>✔</td>
+                <td>✔</td>
+                <td></td>
+                <td></td>
+                <td>✔</td>
+                <td>Sølvgrå</td>
+                <td>Grå</td>
+                <td>Lys</td>
+                <td>✔</td>
+                <td></td>
+            </tr>
+            <!-- Grevinde Danner -->
+            <tr>
+                <td>Grevinde Danner</td>
+                <td class="prompt">"A square cartoon portrait of Grevinde Danner, viewed directly from the front like a passport photo. She has long, dark brown hair and warm brown eyes, wearing elegant 19th-century attire with a modest bonnet. Her expression is gentle and dignified. Below the image, the name 'GREVINDE DANNER' is written in bold Danish letters."</td>
+                <td>✔</td>
+                <td></td>
+                <td></td>
+                <td>✔</td>
+                <td></td>
+                <td>✔</td>
+                <td></td>
+                <td>✔</td>
+                <td>Mørkebrun</td>
+                <td>Brun</td>
+                <td>Lys</td>
+                <td></td>
+                <td>✔</td>
+            </tr>
+            <!-- Napoleon -->
+            <tr>
+                <td>Napoleon</td>
+                <td class="prompt">"A square cartoon portrait of Napoleon, viewed directly from the front like a passport photo. He has short, dark brown hair and sharp blue eyes, wearing his iconic military uniform with a bicorne hat. His expression is determined and authoritative. Below the image, the name 'NAPOLEON' is written in bold Danish letters."</td>
+                <td></td>
+                <td>✔</td>
+                <td></td>
+                <td>✔</td>
+                <td>✔</td>
+                <td></td>
+                <td></td>
+                <td>✔</td>
+                <td>Mørkebrun</td>
+                <td>Blå</td>
+                <td>Lys</td>
+                <td>✔</td>
+                <td></td>
+            </tr>
+            <!-- Sokrates -->
+            <tr>
+                <td>Sokrates</td>
+                <td class="prompt">"A square cartoon portrait of Sokrates, viewed directly from the front like a passport photo. He has a bald head with a bushy gray beard and thoughtful brown eyes, wearing simple Greek philosopher robes. His expression is contemplative and wise. Below the image, the name 'SOKRATES' is written in bold Danish letters."</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>✔</td>
+                <td></td>
+                <td>✔</td>
+                <td></td>
+                <td>✔</td>
+                <td>Grå</td>
+                <td>Brun</td>
+                <td>Oliventræ</td>
+                <td>✔</td>
+                <td></td>
+            </tr>
+            <!-- Zeus -->
+            <tr>
+                <td>Zeus</td>
+                <td class="prompt">"A square cartoon portrait of Zeus, viewed directly from the front like a passport photo. He has long, flowing white hair and a matching beard, with intense blue eyes. Wearing a golden laurel wreath and Greek god attire. His expression is powerful and majestic. Below the image, the name 'ZEUS' is written in bold Danish letters."</td>
+                <td>✔</td>
+                <td></td>
+                <td></td>
+                <td>✔</td>
+                <td>✔</td>
+                <td></td>
+                <td></td>
+                <td>✔</td>
+                <td>Hvid</td>
+                <td>Blå</td>
+                <td>Lys</td>
+                <td>✔</td>
+                <td></td>
+            </tr>
+            <!-- Katharina den Store -->
+            <tr>
+                <td>Katharina den Store</td>
+                <td class="prompt">"A square cartoon portrait of Katharina den Store, viewed directly from the front like a passport photo. She has elaborate, powdered blonde hair styled high and discerning blue eyes, wearing imperial Russian attire with a crown adorned with jewels. Her expression is confident and regal. Below the image, the name 'KATHARINA DEN STORE' is written in bold Danish letters."</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>✔</td>
+                <td>✔</td>
+                <td></td>
+                <td></td>
+                <td>✔</td>
+                <td>Pudret blond</td>
+                <td>Blå</td>
+                <td>Lys</td>
+                <td></td>
+                <td>✔</td>
+            </tr>
+            <!-- Jeanne d'Arc -->
+            <tr>
+                <td>Jeanne d'Arc</td>
+                <td class="prompt">"A square cartoon portrait of Jeanne d'Arc, viewed directly from the front like a passport photo. She has short, straight brown hair and determined gray eyes, wearing medieval armor with a helmet pushed back. Her expression is resolute and brave. Below the image, the name 'JEANNE D'ARC' is written in bold Danish letters."</td>
+                <td></td>
+                <td>✔</td>
+                <td></td>
+                <td>✔</td>
+                <td></td>
+                <td>✔</td>
+                <td></td>
+                <td>✔</td>
+                <td>Brun</td>
+                <td>Grå</td>
+                <td>Lys</td>
+                <td></td>
+                <td>✔</td>
+            </tr>
+            <!-- Marie Antoinette -->
+            <tr>
+                <td>Marie Antoinette</td>
+                <td class="prompt">"A square cartoon portrait of Marie Antoinette, viewed directly from the front like a passport photo. She has extravagant, powdered white hair styled high with curls and blue eyes, wearing an ornate 18th-century dress with a feathered hat. Her expression is graceful and poised. Below the image, the name 'MARIE ANTOINETTE' is written in bold Danish letters."</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>✔</td>
+                <td>✔</td>
+                <td></td>
+                <td></td>
+                <td>✔</td>
+                <td>Pudret hvid</td>
+                <td>Blå</td>
+                <td>Lys</td>
+                <td></td>
+                <td>✔</td>
+            </tr>
+            <!-- Hypatia af Alexandria -->
+            <tr>
+                <td>Hypatia af Alexandria</td>
+                <td class="prompt">"A square cartoon portrait of Hypatia af Alexandria, viewed directly from the front like a passport photo. She has dark, curly hair pulled back and thoughtful brown eyes, wearing a simple white robe with a headband. Her expression is intelligent and serene. Below the image, the name 'HYPATIA AF ALEXANDRIA' is written in bold Danish letters."</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>✔</td>
+                <td></td>
+                <td>✔</td>
+                <td></td>
+                <td>✔</td>
+                <td>Mørk</td>
+                <td>Brun</td>
+                <td>Mellemøstlig</td>
+                <td></td>
+                <td>✔</td>
+            </tr>
+            <!-- Homer -->
+            <tr>
+                <td>Homer</td>
+                <td class="prompt">"A square cartoon portrait of Homer, viewed directly from the front like a passport photo. He has a bald head with a wispy white beard and distant gray eyes, wearing simple Greek attire with a laurel wreath. His expression is contemplative and wise. Below the image, the name 'HOMER' is written in bold Danish letters."</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>✔</td>
+                <td>✔</td>
+                <td></td>
+                <td></td>
+                <td>✔</td>
+                <td>Hvid</td>
+                <td>Grå</td>
+                <td>Oliventræ</td>
+                <td>✔</td>
+                <td></td>
+            </tr>
+            <!-- Odysseus -->
+            <tr>
+                <td>Odysseus</td>
+                <td class="prompt">"A square cartoon portrait of Odysseus, viewed directly from the front like a passport photo. He has medium-length, wavy dark hair and alert brown eyes, wearing Greek warrior armor with a helmet tilted back. His expression is cunning and adventurous. Below the image, the name 'ODYSSEUS' is written in bold Danish letters."</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>✔</td>
+                <td>✔</td>
+                <td></td>
+                <td></td>
+                <td>✔</td>
+                <td>Mørk</td>
+                <td>Brun</td>
+                <td>Oliventræ</td>
+                <td>✔</td>
+                <td></td>
+            </tr>
+            <!-- Kassandra -->
+            <tr>
+                <td>Kassandra</td>
+                <td class="prompt">"A square cartoon portrait of Kassandra from Troy, viewed directly from the front like a passport photo. She has long, straight dark hair and haunting green eyes, wearing a simple Trojan dress with a headband. Her expression is prophetic and melancholic. Below the image, the name 'KASSANDRA' is written in bold Danish letters."</td>
+                <td>✔</td>
+                <td></td>
+                <td></td>
+                <td>✔</td>
+                <td></td>
+                <td>✔</td>
+                <td></td>
+                <td>✔</td>
+                <td>Mørk</td>
+                <td>Grøn</td>
+                <td>Oliventræ</td>
+                <td></td>
+                <td>✔</td>
+            </tr>
+            <!-- Hades -->
+            <tr>
+                <td>Hades</td>
+                <td class="prompt">"A square cartoon portrait of Hades, viewed directly from the front like a passport photo. He has slicked-back black hair and glowing red eyes, wearing dark robes with a helm of darkness. His expression is stern and enigmatic. Below the image, the name 'HADES' is written in bold Danish letters."</td>
+                <td></td>
+                <td>✔</td>
+                <td></td>
+                <td>✔</td>
+                <td></td>
+                <td>✔</td>
+                <td></td>
+                <td>✔</td>
+                <td>Sort</td>
+                <td>Rød</td>
+                <td>Bleg</td>
+                <td>✔</td>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
