@@ -44,7 +44,7 @@ def galleri():
     billeder = [fil for fil in os.listdir(BILLEDEMAPPE) if fil.lower().endswith(('.png', '.jpg', '.jpeg', '.gif', '.bmp'))]
     return render_template_string(HTML_TEMPLATE, billeder=billeder)
 
-# Rute til at vise et billede
+# Rute til at vise et billedegit --version
 @app.route('/billeder/<filnavn>')
 def vis_billede(filnavn):
     return send_from_directory(BILLEDEMAPPE, filnavn)
