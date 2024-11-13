@@ -1,10 +1,122 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="da">
 <head>
-  <meta charset="UTF-8">
-  <title>Title</title>
+    <meta charset="UTF-8">
+    <title>Mit Billedgalleri</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            padding: 10px;
+            justify-content: center;
+        }
+        .gallery img {
+            margin: 5px;
+            width: calc(25% - 10px);
+            height: auto;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            transition: 0.3s;
+        }
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+        @media (max-width: 800px) {
+            .gallery img {
+                width: calc(33.333% - 10px);
+            }
+        }
+        @media (max-width: 500px) {
+            .gallery img {
+                width: calc(50% - 10px);
+            }
+        }
+    </style>
 </head>
 <body>
+    <h1 style="text-align:center; padding: 20px;">Mit Billedgalleri</h1>
+    <div class="gallery">
+        <!-- Billeder indsættes her -->
+    </div>
+    <script>
+        const imageFolder = 'static/images/';
+        const gallery = document.querySelector('.gallery');
+        const images = [
+            'AI ruk.jpg',
+            'aids.jpg',
+            'CCS.jpg',
+            'CD.jpg',
+            'cyb.jpg',
+            'dada.jpg',
+            'dfd.webp',
+            'fafa.jpg',
+            'fdfd.jpg',
+            'fdfdf.jpg',
+            'fdfsfd.jpg',
+            'fdsfdsfds.jpg',
+            'fefe.jpg',
+            'fewfw.webp',
+            'fewfwf.webp',
+            'fewfwfw.webp',
+            'ffdsf.jpg',
+            'fwwf.webp',
+            'gfgfggg.webp',
+            'grge.webp',
+            'jli.jpg',
+            'kkk.jpg',
+            'l.jpg',
+            'lålå.jpg',
+            'm.mj.jpg',
+            'mm.jpg',
+            'mmm.jpg',
+            'out-0 (1).jpg',
+            'out-0 (2).jpg',
+            'out-0 (3).jpg',
+            'out-1 (1).jpg',
+            'out-1 (2).jpg',
+            'out-1.jpg',
+            'out-1.webp',
+            'out-2 (1).jpg',
+            'out-2 (2).jpg',
+            'out-2 (3).jpg',
+            'out-2 (4).jpg',
+            'out-2.jpg',
+            'out-2.webp',
+            'out-3 (1).jpg',
+            'out-3 (2).jpg',
+            'out-3 (3).jpg',
+            'out-3 (5).jpg',
+            'out-3.jpg',
+            'out-3.webp',
+            'reging.jpg',
+            'replicate-prediction-3804744vnsrmc0ck1e282041g8.jpg',
+            'replicate-prediction-5d97gmtwg9rm80ck1dw9yr0hvg.jpg',
+            'replicate-prediction-7bssamstr1rma0ck1dys2jxegw.jpg',
+            'replicate-prediction-8jnp3tq961rma0ck1eq94y9g24-0.jpg',
+            'replicate-prediction-8jnp3tq961rma0ck1eq94y9g24-1.jpg',
+            'replicate-prediction-8jnp3tq961rma0ck1eq94y9g24-3.jpg',
+            'replicate-prediction-c71ygwtww5rme0ck1e5b3g8myw.jpg',
+            'replicate-prediction-kfbvn444mxrm80ck1e3rr7drj8.jpg',
+            'replicate-prediction-vpftkr1fr9rm80ck1e8avpyzpr.jpg',
+            'replicate-prediction-y7c54jhewnrmc0ck1dy8kzckv4.jpg',
+            'rere.jpg',
+            'rulk ar.jpg',
+            'vfvdsv.webp',
+            'vsvewr.webp',
+            'Skærmbillede 2024-11-08 220110.png'
+        ];
 
+        images.forEach(image => {
+            const img = document.createElement('img');
+            img.src = imageFolder + image;
+            img.alt = image;
+            gallery.appendChild(img);
+        });
+    </script>
 </body>
 </html>
