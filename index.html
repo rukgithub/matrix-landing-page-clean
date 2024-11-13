@@ -4,267 +4,298 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Matrix Landing Page</title>
+        <title>Matrix Image Gallery</title>
         <style>
-            body { background-color: #000; color: #0f0; font-family: 'Courier New', Courier, monospace; margin: 0; padding: 0; }
-            .container { display: flex; flex-wrap: wrap; justify-content: center; padding: 20px; }
-            .image-box { margin: 10px; border: 2px solid #0f0; padding: 5px; transition: transform 0.2s; }
-            .image-box img { max-width: 100%; height: auto; display: block; }
-            .image-box:hover { transform: scale(1.05); }
+            body { 
+                background-color: #000; 
+                color: #0f0; 
+                font-family: 'Courier New', Courier, monospace; 
+                margin: 0; 
+                padding: 0;
+                min-height: 100vh;
+            }
+            .container { 
+                display: flex; 
+                flex-wrap: wrap; 
+                justify-content: center; 
+                padding: 20px; 
+                gap: 20px;
+            }
+            .image-box { 
+                background: rgba(0, 255, 0, 0.1);
+                border: 2px solid #0f0; 
+                padding: 10px;
+                transition: all 0.3s ease;
+                max-width: 300px;
+            }
+            .image-box img { 
+                width: 100%;
+                height: auto; 
+                display: block;
+            }
+            .image-box:hover { 
+                transform: scale(1.05);
+                box-shadow: 0 0 20px rgba(0, 255, 0, 0.5);
+            }
+            h1 { 
+                text-align: center; 
+                padding: 20px;
+                text-shadow: 0 0 10px #0f0;
+            }
         </style>
     </head>
     <body>
-        <h1 style="text-align:center; padding:20px;">Matrix Themed Image Gallery</h1>
+        <h1>Matrix Image Gallery</h1>
         <div class="container">
-            
+    
             <div class="image-box">
-                <img src="images/AI ruk.jpg" alt="AI ruk.jpg">
+                <img src="images/AI ruk.jpg" alt="AI ruk.jpg" loading="lazy">
             </div>
-            
+        
             <div class="image-box">
-                <img src="images/aids.jpg" alt="aids.jpg">
+                <img src="images/aids.jpg" alt="aids.jpg" loading="lazy">
             </div>
-            
+        
             <div class="image-box">
-                <img src="images/CCS.jpg" alt="CCS.jpg">
+                <img src="images/CCS.jpg" alt="CCS.jpg" loading="lazy">
             </div>
-            
+        
             <div class="image-box">
-                <img src="images/CD.jpg" alt="CD.jpg">
+                <img src="images/CD.jpg" alt="CD.jpg" loading="lazy">
             </div>
-            
+        
             <div class="image-box">
-                <img src="images/cyb.jpg" alt="cyb.jpg">
+                <img src="images/cyb.jpg" alt="cyb.jpg" loading="lazy">
             </div>
-            
+        
             <div class="image-box">
-                <img src="images/dada.jpg" alt="dada.jpg">
+                <img src="images/dada.jpg" alt="dada.jpg" loading="lazy">
             </div>
-            
+        
             <div class="image-box">
-                <img src="images/dfd.webp" alt="dfd.webp">
+                <img src="images/dfd.webp" alt="dfd.webp" loading="lazy">
             </div>
-            
+        
             <div class="image-box">
-                <img src="images/fafa.jpg" alt="fafa.jpg">
+                <img src="images/fafa.jpg" alt="fafa.jpg" loading="lazy">
             </div>
-            
+        
             <div class="image-box">
-                <img src="images/fdfd.jpg" alt="fdfd.jpg">
+                <img src="images/fdfd.jpg" alt="fdfd.jpg" loading="lazy">
             </div>
-            
+        
             <div class="image-box">
-                <img src="images/fdfdf.jpg" alt="fdfdf.jpg">
+                <img src="images/fdfdf.jpg" alt="fdfdf.jpg" loading="lazy">
             </div>
-            
+        
             <div class="image-box">
-                <img src="images/fdfsfd.jpg" alt="fdfsfd.jpg">
+                <img src="images/fdfsfd.jpg" alt="fdfsfd.jpg" loading="lazy">
             </div>
-            
+        
             <div class="image-box">
-                <img src="images/fdsfdsfds.jpg" alt="fdsfdsfds.jpg">
+                <img src="images/fdsfdsfds.jpg" alt="fdsfdsfds.jpg" loading="lazy">
             </div>
-            
+        
             <div class="image-box">
-                <img src="images/fefe.jpg" alt="fefe.jpg">
+                <img src="images/fefe.jpg" alt="fefe.jpg" loading="lazy">
             </div>
-            
+        
             <div class="image-box">
-                <img src="images/fewfw.webp" alt="fewfw.webp">
+                <img src="images/fewfw.webp" alt="fewfw.webp" loading="lazy">
             </div>
-            
+        
             <div class="image-box">
-                <img src="images/fewfwf.webp" alt="fewfwf.webp">
+                <img src="images/fewfwf.webp" alt="fewfwf.webp" loading="lazy">
             </div>
-            
+        
             <div class="image-box">
-                <img src="images/fewfwfw.webp" alt="fewfwfw.webp">
+                <img src="images/fewfwfw.webp" alt="fewfwfw.webp" loading="lazy">
             </div>
-            
+        
             <div class="image-box">
-                <img src="images/ffdsf.jpg" alt="ffdsf.jpg">
+                <img src="images/ffdsf.jpg" alt="ffdsf.jpg" loading="lazy">
             </div>
-            
+        
             <div class="image-box">
-                <img src="images/fwwf.webp" alt="fwwf.webp">
+                <img src="images/fwwf.webp" alt="fwwf.webp" loading="lazy">
             </div>
-            
+        
             <div class="image-box">
-                <img src="images/gfgfggg.webp" alt="gfgfggg.webp">
+                <img src="images/gfgfggg.webp" alt="gfgfggg.webp" loading="lazy">
             </div>
-            
+        
             <div class="image-box">
-                <img src="images/grge.webp" alt="grge.webp">
+                <img src="images/grge.webp" alt="grge.webp" loading="lazy">
             </div>
-            
+        
             <div class="image-box">
-                <img src="images/jli.jpg" alt="jli.jpg">
+                <img src="images/jli.jpg" alt="jli.jpg" loading="lazy">
             </div>
-            
+        
             <div class="image-box">
-                <img src="images/kkk.jpg" alt="kkk.jpg">
+                <img src="images/kkk.jpg" alt="kkk.jpg" loading="lazy">
             </div>
-            
+        
             <div class="image-box">
-                <img src="images/l.jpg" alt="l.jpg">
+                <img src="images/l.jpg" alt="l.jpg" loading="lazy">
             </div>
-            
+        
             <div class="image-box">
-                <img src="images/lålå.jpg" alt="lålå.jpg">
+                <img src="images/lålå.jpg" alt="lålå.jpg" loading="lazy">
             </div>
-            
+        
             <div class="image-box">
-                <img src="images/m.mj.jpg" alt="m.mj.jpg">
+                <img src="images/m.mj.jpg" alt="m.mj.jpg" loading="lazy">
             </div>
-            
+        
             <div class="image-box">
-                <img src="images/mm.jpg" alt="mm.jpg">
+                <img src="images/mm.jpg" alt="mm.jpg" loading="lazy">
             </div>
-            
+        
             <div class="image-box">
-                <img src="images/mmm.jpg" alt="mmm.jpg">
+                <img src="images/mmm.jpg" alt="mmm.jpg" loading="lazy">
             </div>
-            
+        
             <div class="image-box">
-                <img src="images/out-0 (1).jpg" alt="out-0 (1).jpg">
+                <img src="images/out-0 (1).jpg" alt="out-0 (1).jpg" loading="lazy">
             </div>
-            
+        
             <div class="image-box">
-                <img src="images/out-0 (2).jpg" alt="out-0 (2).jpg">
+                <img src="images/out-0 (2).jpg" alt="out-0 (2).jpg" loading="lazy">
             </div>
-            
+        
             <div class="image-box">
-                <img src="images/out-0 (3).jpg" alt="out-0 (3).jpg">
+                <img src="images/out-0 (3).jpg" alt="out-0 (3).jpg" loading="lazy">
             </div>
-            
+        
             <div class="image-box">
-                <img src="images/out-1 (1).jpg" alt="out-1 (1).jpg">
+                <img src="images/out-1 (1).jpg" alt="out-1 (1).jpg" loading="lazy">
             </div>
-            
+        
             <div class="image-box">
-                <img src="images/out-1 (2).jpg" alt="out-1 (2).jpg">
+                <img src="images/out-1 (2).jpg" alt="out-1 (2).jpg" loading="lazy">
             </div>
-            
+        
             <div class="image-box">
-                <img src="images/out-1.jpg" alt="out-1.jpg">
+                <img src="images/out-1.jpg" alt="out-1.jpg" loading="lazy">
             </div>
-            
+        
             <div class="image-box">
-                <img src="images/out-1.webp" alt="out-1.webp">
+                <img src="images/out-1.webp" alt="out-1.webp" loading="lazy">
             </div>
-            
+        
             <div class="image-box">
-                <img src="images/out-2 (1).jpg" alt="out-2 (1).jpg">
+                <img src="images/out-2 (1).jpg" alt="out-2 (1).jpg" loading="lazy">
             </div>
-            
+        
             <div class="image-box">
-                <img src="images/out-2 (2).jpg" alt="out-2 (2).jpg">
+                <img src="images/out-2 (2).jpg" alt="out-2 (2).jpg" loading="lazy">
             </div>
-            
+        
             <div class="image-box">
-                <img src="images/out-2 (3).jpg" alt="out-2 (3).jpg">
+                <img src="images/out-2 (3).jpg" alt="out-2 (3).jpg" loading="lazy">
             </div>
-            
+        
             <div class="image-box">
-                <img src="images/out-2 (4).jpg" alt="out-2 (4).jpg">
+                <img src="images/out-2 (4).jpg" alt="out-2 (4).jpg" loading="lazy">
             </div>
-            
+        
             <div class="image-box">
-                <img src="images/out-2.jpg" alt="out-2.jpg">
+                <img src="images/out-2.jpg" alt="out-2.jpg" loading="lazy">
             </div>
-            
+        
             <div class="image-box">
-                <img src="images/out-2.webp" alt="out-2.webp">
+                <img src="images/out-2.webp" alt="out-2.webp" loading="lazy">
             </div>
-            
+        
             <div class="image-box">
-                <img src="images/out-3 (1).jpg" alt="out-3 (1).jpg">
+                <img src="images/out-3 (1).jpg" alt="out-3 (1).jpg" loading="lazy">
             </div>
-            
+        
             <div class="image-box">
-                <img src="images/out-3 (2).jpg" alt="out-3 (2).jpg">
+                <img src="images/out-3 (2).jpg" alt="out-3 (2).jpg" loading="lazy">
             </div>
-            
+        
             <div class="image-box">
-                <img src="images/out-3 (3).jpg" alt="out-3 (3).jpg">
+                <img src="images/out-3 (3).jpg" alt="out-3 (3).jpg" loading="lazy">
             </div>
-            
+        
             <div class="image-box">
-                <img src="images/out-3 (5).jpg" alt="out-3 (5).jpg">
+                <img src="images/out-3 (5).jpg" alt="out-3 (5).jpg" loading="lazy">
             </div>
-            
+        
             <div class="image-box">
-                <img src="images/out-3.jpg" alt="out-3.jpg">
+                <img src="images/out-3.jpg" alt="out-3.jpg" loading="lazy">
             </div>
-            
+        
             <div class="image-box">
-                <img src="images/out-3.webp" alt="out-3.webp">
+                <img src="images/out-3.webp" alt="out-3.webp" loading="lazy">
             </div>
-            
+        
             <div class="image-box">
-                <img src="images/reging.jpg" alt="reging.jpg">
+                <img src="images/reging.jpg" alt="reging.jpg" loading="lazy">
             </div>
-            
+        
             <div class="image-box">
-                <img src="images/replicate-prediction-3804744vnsrmc0ck1e282041g8.jpg" alt="replicate-prediction-3804744vnsrmc0ck1e282041g8.jpg">
+                <img src="images/replicate-prediction-3804744vnsrmc0ck1e282041g8.jpg" alt="replicate-prediction-3804744vnsrmc0ck1e282041g8.jpg" loading="lazy">
             </div>
-            
+        
             <div class="image-box">
-                <img src="images/replicate-prediction-5d97gmtwg9rm80ck1dw9yr0hvg.jpg" alt="replicate-prediction-5d97gmtwg9rm80ck1dw9yr0hvg.jpg">
+                <img src="images/replicate-prediction-5d97gmtwg9rm80ck1dw9yr0hvg.jpg" alt="replicate-prediction-5d97gmtwg9rm80ck1dw9yr0hvg.jpg" loading="lazy">
             </div>
-            
+        
             <div class="image-box">
-                <img src="images/replicate-prediction-7bssamstr1rma0ck1dys2jxegw.jpg" alt="replicate-prediction-7bssamstr1rma0ck1dys2jxegw.jpg">
+                <img src="images/replicate-prediction-7bssamstr1rma0ck1dys2jxegw.jpg" alt="replicate-prediction-7bssamstr1rma0ck1dys2jxegw.jpg" loading="lazy">
             </div>
-            
+        
             <div class="image-box">
-                <img src="images/replicate-prediction-8jnp3tq961rma0ck1eq94y9g24-0.jpg" alt="replicate-prediction-8jnp3tq961rma0ck1eq94y9g24-0.jpg">
+                <img src="images/replicate-prediction-8jnp3tq961rma0ck1eq94y9g24-0.jpg" alt="replicate-prediction-8jnp3tq961rma0ck1eq94y9g24-0.jpg" loading="lazy">
             </div>
-            
+        
             <div class="image-box">
-                <img src="images/replicate-prediction-8jnp3tq961rma0ck1eq94y9g24-1.jpg" alt="replicate-prediction-8jnp3tq961rma0ck1eq94y9g24-1.jpg">
+                <img src="images/replicate-prediction-8jnp3tq961rma0ck1eq94y9g24-1.jpg" alt="replicate-prediction-8jnp3tq961rma0ck1eq94y9g24-1.jpg" loading="lazy">
             </div>
-            
+        
             <div class="image-box">
-                <img src="images/replicate-prediction-8jnp3tq961rma0ck1eq94y9g24-3.jpg" alt="replicate-prediction-8jnp3tq961rma0ck1eq94y9g24-3.jpg">
+                <img src="images/replicate-prediction-8jnp3tq961rma0ck1eq94y9g24-3.jpg" alt="replicate-prediction-8jnp3tq961rma0ck1eq94y9g24-3.jpg" loading="lazy">
             </div>
-            
+        
             <div class="image-box">
-                <img src="images/replicate-prediction-c71ygwtww5rme0ck1e5b3g8myw.jpg" alt="replicate-prediction-c71ygwtww5rme0ck1e5b3g8myw.jpg">
+                <img src="images/replicate-prediction-c71ygwtww5rme0ck1e5b3g8myw.jpg" alt="replicate-prediction-c71ygwtww5rme0ck1e5b3g8myw.jpg" loading="lazy">
             </div>
-            
+        
             <div class="image-box">
-                <img src="images/replicate-prediction-kfbvn444mxrm80ck1e3rr7drj8.jpg" alt="replicate-prediction-kfbvn444mxrm80ck1e3rr7drj8.jpg">
+                <img src="images/replicate-prediction-kfbvn444mxrm80ck1e3rr7drj8.jpg" alt="replicate-prediction-kfbvn444mxrm80ck1e3rr7drj8.jpg" loading="lazy">
             </div>
-            
+        
             <div class="image-box">
-                <img src="images/replicate-prediction-vpftkr1fr9rm80ck1e8avpyzpr.jpg" alt="replicate-prediction-vpftkr1fr9rm80ck1e8avpyzpr.jpg">
+                <img src="images/replicate-prediction-vpftkr1fr9rm80ck1e8avpyzpr.jpg" alt="replicate-prediction-vpftkr1fr9rm80ck1e8avpyzpr.jpg" loading="lazy">
             </div>
-            
+        
             <div class="image-box">
-                <img src="images/replicate-prediction-y7c54jhewnrmc0ck1dy8kzckv4.jpg" alt="replicate-prediction-y7c54jhewnrmc0ck1dy8kzckv4.jpg">
+                <img src="images/replicate-prediction-y7c54jhewnrmc0ck1dy8kzckv4.jpg" alt="replicate-prediction-y7c54jhewnrmc0ck1dy8kzckv4.jpg" loading="lazy">
             </div>
-            
+        
             <div class="image-box">
-                <img src="images/rere.jpg" alt="rere.jpg">
+                <img src="images/rere.jpg" alt="rere.jpg" loading="lazy">
             </div>
-            
+        
             <div class="image-box">
-                <img src="images/rulk ar.jpg" alt="rulk ar.jpg">
+                <img src="images/rulk ar.jpg" alt="rulk ar.jpg" loading="lazy">
             </div>
-            
+        
             <div class="image-box">
-                <img src="images/Skærmbillede 2024-11-08 220110.png" alt="Skærmbillede 2024-11-08 220110.png">
+                <img src="images/Skærmbillede 2024-11-08 220110.png" alt="Skærmbillede 2024-11-08 220110.png" loading="lazy">
             </div>
-            
+        
             <div class="image-box">
-                <img src="images/vfvdsv.webp" alt="vfvdsv.webp">
+                <img src="images/vfvdsv.webp" alt="vfvdsv.webp" loading="lazy">
             </div>
-            
+        
             <div class="image-box">
-                <img src="images/vsvewr.webp" alt="vsvewr.webp">
+                <img src="images/vsvewr.webp" alt="vsvewr.webp" loading="lazy">
             </div>
-            
+        
         </div>
     </body>
     </html>
